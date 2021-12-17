@@ -1,0 +1,28 @@
+# TODO: change org and app info
+org: sergioyepes21
+app: serverless-job
+
+
+service: serverless-job
+
+# You can pin your service to only deploy with a specific Serverless version
+# Check out our docs for more details
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: 20201221
+
+functions:
+  readFromS3:
+    handler: handler.readFromS3
+    events:
+      - s3: 
+          # TODO: define serverless params according to the bucket created
+          bucket: ${param:serverless-job-s3-bucket-name}
+          event: s3:ObjectCreated:Put
+          rules: 
+            - prefix: ${param:serverless-job-s3-file-name}
+            - suffix: .csv
+          existing: true
