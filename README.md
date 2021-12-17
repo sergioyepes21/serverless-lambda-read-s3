@@ -2,7 +2,7 @@
 
 This project is a [Serverless Framework](https://www.serverless.com/framework/docs/providers/aws) project made with AWS as the Cloud provider.
 
-If you run the project, you will create an AWS Lambda on us-east-1 that reads from an S3 bucket define on the Serverless Framework app's parameters
+If you run the project, you will create an AWS Lambda on us-east-1 that reads from an S3 bucket defined on the Serverless Framework app's parameters
 
 It is necessary to read all the ```// TODO``` comments and solve them.
 
