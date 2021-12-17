@@ -28,6 +28,27 @@ $ serverless deploy
 
 Now you can go and update your S3 file on the bucket created and check how the Lambda function processed it :)
 
+## Project in action
+
+The following images show how the Lambda functions automatically runs every time the S3 Object is updated:
+
+* Lambda created after serverless deployment:
+
+![image](https://user-images.githubusercontent.com/35923377/146617906-131c2a4d-272b-4193-b2cd-8839e8c88b4c.png)
+
+* Lambda Monitor Metrics showing the function's invocations:
+
+![image](https://user-images.githubusercontent.com/35923377/146617975-9fbcaf11-cf2b-4ac8-9419-fc6e149f0f5c.png)
+
+* Lambda logs example on the number of records on the .csv file stored on the S3 Bucket:
+
+![image](https://user-images.githubusercontent.com/35923377/146618091-10434097-ff2b-438e-b82f-de47fc722ddb.png)
+
+* S3 Object's versions and its modified date
+
+![image](https://user-images.githubusercontent.com/35923377/146618027-9e0c1b98-424a-4e9b-b4c0-4766af210812.png)
+
+
 ## Stay in touch
 
 - Author - [Sergio Yepes](https://github.com/sergioyepes21)
