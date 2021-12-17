@@ -32,7 +32,3 @@ Now you can go and update your S3 file on the bucket created and check how the L
 
 - Author - [Sergio Yepes](https://github.com/sergioyepes21)
 - LinkedIn - [Sergio Yepes](https://www.linkedin.com/in/sergio-andr%C3%A9s-yepes-joven-41405b174)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
